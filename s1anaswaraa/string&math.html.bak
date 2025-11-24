@@ -1,0 +1,46 @@
+<html>
+<head>
+  <title>String and Math Functions in JavaScript</title>
+</head>
+<body>
+  <h1>Predefined Functions in JavaScript</h1>
+
+  <h2>String Object Functions</h2>
+  <script>
+    var text = "Hello JavaScript";
+
+    document.writeln("Original text: " + text + "<br>");
+    document.writeln("1. toUpperCase(): " + text.toUpperCase() + "<br>");
+    document.writeln("2. toLowerCase(): " + text.toLowerCase() + "<br>");
+    document.writeln("3. length: " + text.length + "<br>");
+    document.writeln("4. charAt(1): " + text.charAt(1) + "<br>");
+    document.writeln("5. indexOf('Java'): " + text.indexOf("Java") + "<br>");
+    document.writeln("6. replace('JavaScript', 'World'): " + text.replace("JavaScript", "World") + "<br>");
+	document.writeln("7. concat('!!!'): " + text.concat("!!!") + "<br>");
+    document.writeln("8. slice(0,5): " + text.slice(0,5) + "<br>");
+	document.writeln("9. substring(6,16): " + text.substring(6,16) + "<br>");
+	document.writeln("10. includes('Java'): " + text.includes("Java") + "<br>");
+	document.writeln("11. startsWith('Hello'): " + text.startsWith("Hello") + "<br>");
+	document.writeln("12. endsWith('Script'): " + text.endsWith("Script") + "<br>");
+	document.writeln("13. split(' '): " + text.split(" ") + "<br>");
+	document.writeln("14. trim(): " + text.trim() + "<br>");
+    document.writeln("<br>");
+  </script>
+
+  <h2>Math Object Functions</h2>
+  <script>
+    var num = 9.7;
+
+    document.writeln("Original number: " + num + "<br>");
+    document.writeln("1. Math.round(9.7): " + Math.round(num) + "<br>");
+    document.writeln("2. Math.floor(9.7): " + Math.floor(num) + "<br>");
+    document.writeln("3. Math.ceil(9.7): " + Math.ceil(num) + "<br>");
+    document.writeln("4. Math.sqrt(25): " + Math.sqrt(25) + "<br>");
+    document.writeln("5. Math.pow(2,3): " + Math.pow(2,3) + "<br>");
+    document.writeln("6. Math.random(): " + Math.random() + "<br>");
+    document.writeln("7. Math.max(3, 7, 2): " + Math.max(3,7,2) + "<br>");
+    document.writeln("8. Math.min(3, 7, 2): " + Math.min(3,7,2) + "<br>");
+  </script>
+
+</body>
+</html>

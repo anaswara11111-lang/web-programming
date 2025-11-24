@@ -1,0 +1,80 @@
+<html>
+<body>
+<center>
+  <h1>REGISTRATION FORM</h1>
+</center>
+
+<form>
+  <table>
+    <tr>
+      <td><label for="name">Name</label></td>
+      <td><input type="text" name="name" id="name"></td>
+    </tr>
+
+    <tr>
+      <td><label for="password">Password</label></td>
+      <td><input type="password" name="password" maxlength="6" id="password"></td>
+    </tr>
+
+    <tr>
+      <td><label for="mobile">Mobile</label></td>
+      <td><input type="text" name="mobile" maxlength="12" id="mobile"></td>
+    </tr>
+
+    <tr>
+      <td><label for="dob">DOB</label></td>
+      <td><input type="date" name="dob" id="dob"></td>
+    </tr>
+
+    <tr>
+      <td><label>Gender</label></td>
+      <td>
+        <input type="radio" name="gender" value="Male" checked required >Male
+        <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="gender" value="Other">Other
+      </td>
+    </tr>
+
+    <tr>
+      <td><label for="email">Email</label></td>
+      <td><input type="text" name="email" id="email"></td>
+    </tr>
+
+    <tr>
+      <td><label for="address">Address</label></td>
+      <td><textarea name="address" id="address" rows="3" cols="30"></textarea></td>
+    </tr>
+
+    <tr>
+      <td><label for="nationality">Nationality</label></td>
+      <td>
+        <select name="nationality" id="nationality">
+          <option value="">Indian</option>
+          <option>German</option>
+          <option>American</option>
+        </select>
+      </td>
+    </tr>
+ 
+    <tr>
+      <td><label>Languages</label></td>
+      <td>
+	   <fieldset>
+	    <legend>Languages Known</legend>
+        <input type="checkbox" name="language" value="malayalam" id="lang-malayalam"><label for="lang-malayalam">Malayalam</label><br>
+        <input type="checkbox" name="language" value="english" id="lang-english"><label for="lang-english">English</label><br>
+        <input type="checkbox" name="language" value="hindi" id="lang-hindi"><label for="lang-hindi">Hindi</label>
+	  </fieldset>
+	 </td>
+    </tr>
+ 
+    <tr>
+      <td colspan="2" align="center">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Cancel">
+      </td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
